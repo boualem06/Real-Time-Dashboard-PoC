@@ -1,0 +1,21 @@
+-using the weather free api to get the actual weather in paris  https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=506962100eb2843537acccc42bd2c7c7
+-in this api we have 60 calls per minute and it gives the necessary info about the weather now 
+
+========================================================================
+euro to usd changes data is updated each minute  
+https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-finance-data/playground/endpoint_ac1a3aac-af6a-4441-b845-2c51a2f4edd6
+
+==========================================================================
+air pollution 
+curl --request GET     --url "https://api.openaq.org/v3/locations?parameters_id=2&limit=1000"     --header "X-API-Key:27426ba062fc2aff985e772b39abdbe5c9898be0b104160e4bdcd57f9fb766f6"
+
+=====================================================================================================
+us to euro each updated each 1 hour 
+
+===================================================================================================
+
+final :
+using euro to usd changes that is updated each time second part i will (fetch each day 30 23 * * *)
+using oil crude price that is updated each hour(0 * * * *) https://finnhub.io/api/v1/quote?symbol=CL&token=ctanb79r01qrt5hi2rb0ctanb79r01qrt5hi2rbg
+lunch the mongodb.sh each day at 00:00 where it puts all the data in the two folders into the corresponding collections and delete the files of the day (0 0 * * *)
+

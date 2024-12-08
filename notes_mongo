@@ -1,0 +1,19 @@
+to imoprt the file of usd to euro into the db (in the bash)
+mongoimport --db currency_data --collection usd_to_eur --file /home/blm/Documents/linux_project_final/usd_to_euro/time_series_data_2024-12-08_14:54.json
+
+the way to show all the time series in the database 
+mongosh
+use currency_data
+db.usd_to_eur.find().pretty()
+
+
+==================================================================================================================================================
+
+to imoprt the file of oil price  into the db (in the bash)
+mongoimport --db currency_data --collection oil_price --file /home/blm/Documents/linux_project_final/oil_price/oil_price_2024-12-08_14:59.json
+
+if we wanna show the values in the database we excute 
+mongosh
+use currency_data
+db.oil_price.find().pretty()
+
