@@ -22,7 +22,7 @@ This project presents a real-time dashboard for analyzing and visualizing specif
 ## 🌟 Project Overview
 
 ### Problem Statement
-The goal of this project is to create a **real-time dashboard** to analyze **[chosen activities]** in the region **[chosen geographical area]**. The focus is to demonstrate the feasibility of the project through a **PoC**, incorporating automated scripts to:
+The goal of this project is to create a **real-time dashboard** to analyze **[ the influence of various economic and financial factors on the fluctuation of the exchange rate of the dollar relative to another currency—here, we chose the euro. ]** . The focus is to demonstrate the feasibility of the project through a **PoC**, incorporating automated scripts to:
 - **Download data**.  
 - **Summarize insights**.  
 - **Provide visual and interactive analyses**.  
